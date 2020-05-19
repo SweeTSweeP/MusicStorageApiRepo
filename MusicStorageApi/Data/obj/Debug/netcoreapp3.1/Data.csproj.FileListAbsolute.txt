@@ -1,0 +1,5 @@
+C:\Users\Family\repos\MusicStorageApi\Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\Family\repos\MusicStorageApi\Data\bin\Debug\netcoreapp3.1\Data.dll
+C:\Users\Family\repos\MusicStorageApi\Data\obj\Debug\netcoreapp3.1\Data.csprojAssemblyReference.cache
+C:\Users\Family\repos\MusicStorageApi\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
+C:\Users\Family\repos\MusicStorageApi\Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs

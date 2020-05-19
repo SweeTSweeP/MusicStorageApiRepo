@@ -5004,11 +5004,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi\\MusicStorageApi.csproj",
+      "projectUniqueName": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi\\MusicStorageApi.csproj",
       "projectName": "MusicStorageApi",
-      "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi\\MusicStorageApi.csproj",
+      "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi\\MusicStorageApi.csproj",
       "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi\\obj\\",
+      "outputPath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5027,8 +5027,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Family\\repos\\MusicStorageApi\\Data\\MusicStorageApi.Data.csproj": {
-              "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApi\\Data\\MusicStorageApi.Data.csproj"
+            "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\Data\\MusicStorageApi.Data.csproj": {
+              "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\Data\\MusicStorageApi.Data.csproj"
             }
           }
         }

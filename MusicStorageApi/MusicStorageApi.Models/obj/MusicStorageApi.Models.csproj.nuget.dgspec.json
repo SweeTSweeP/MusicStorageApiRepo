@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj": {}
+    "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj": {
+    "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
         "projectName": "MusicStorageApi.Models",
-        "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
+        "projectPath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
         "packagesPath": "C:\\Users\\Family\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\obj\\",
+        "outputPath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1bgC6V8SavTjT54MZEfuRRbnvkJmeWb5WjnliSoyWmmCY++Ntuk8Y0GDWXuE1/JEdKvBCVWFeza1i6X6bYH3Jw==",
+  "dgSpecHash": "uXmLdEvik5p0eVrURcWp+bmPGy+kNhqrJpExj5OaFS0SCGjYWp4zxwNlughuxcg9Z/yyTbmaSLCX/dIhwLCs0w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Family\\repos\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
+  "projectFilePath": "C:\\Users\\Family\\repos\\MusicStorageApiRepo\\MusicStorageApi\\MusicStorageApi.Models\\MusicStorageApi.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Family\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Family\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

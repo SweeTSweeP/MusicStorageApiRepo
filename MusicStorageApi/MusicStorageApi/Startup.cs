@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using MusicStorageApi.Data.Context;
+using MusicStorageApi.Repositories.Interfaces;
+using MusicStorageApi.Repositories.Repositories;
 
 namespace MusicStorageApi
 {
@@ -22,7 +24,10 @@ namespace MusicStorageApi
         {
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
 
-            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString));
+            services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString, b => b.MigrationsAssembly("MusicStorageApi")));
+            services.AddSingleton<IAuthorRepository, AuthorRepository>();
+            services.AddSingleton<IAlbumRepository, AlbumRepository>();
+            services.AddSingleton<ISongRepository, SongRepository>();
             services.AddControllers();
         }
 

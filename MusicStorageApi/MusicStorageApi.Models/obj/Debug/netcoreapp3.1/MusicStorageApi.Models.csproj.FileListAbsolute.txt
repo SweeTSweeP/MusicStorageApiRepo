@@ -10,3 +10,15 @@ C:\Users\Family\repos\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreap
 C:\Users\Family\repos\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.dll
 C:\Users\Family\repos\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
 C:\Users\Family\repos\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.genruntimeconfig.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.deps.json
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.runtimeconfig.json
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.runtimeconfig.dev.json
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.csprojAssemblyReference.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.csproj.CoreCompileInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.AssemblyInfoInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.AssemblyInfo.cs
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Models\obj\Debug\netcoreapp3.1\MusicStorageApi.Models.genruntimeconfig.cache

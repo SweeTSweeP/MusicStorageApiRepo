@@ -1,0 +1,9 @@
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.deps.json
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.csprojAssemblyReference.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.AssemblyInfoInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.AssemblyInfo.cs
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb

@@ -9,13 +9,13 @@ namespace MusicStorageApi.Models.Entities
 {
     public class Song
     {
-        [Key] public Guid SongId { get; set; }
+        public Guid SongId { get; set; }
         public string title { get; set; }
         public string ReleaseYear { get; set; }
         public string RecordLabel { get; set; }
-        public Guid AlbumId { get; set; }
-        [ForeignKey("AlbumId")] public Album Album { get; set; }
-        public Guid AuthorId { get; set; }
-        [ForeignKey("albumId")] public Author Author { get; set; }
+        public Guid? AlbumId { get; set; }
+        public Album Album { get; set; }
+        public Guid? AuthorId { get; set; }
+        public Author Author { get; set; }
     }
 }

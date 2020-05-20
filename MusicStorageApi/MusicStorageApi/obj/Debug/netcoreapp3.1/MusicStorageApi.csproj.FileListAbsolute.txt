@@ -116,3 +116,9 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\De
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.genruntimeconfig.cache
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.MvcApplicationPartsAssemblyInfo.cs

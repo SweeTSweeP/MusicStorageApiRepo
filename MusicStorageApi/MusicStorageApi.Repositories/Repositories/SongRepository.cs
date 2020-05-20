@@ -19,8 +19,22 @@ namespace MusicStorageApi.Repositories.Repositories
             context = _context;
         }
 
-        public Task<Song> CreateSong(Guid authorId, Guid albumId, Song song)
+        public Task<Song> CreateSong(Guid albumId, Guid authorId, Song song)
         {
+            var author = context.Authors.Find(authorId);
+
+            if (author == null)
+            {
+                return null;
+            }
+
+            var album = author.Albums.FirstOrDefault(s => s.AlbumId == albumId);
+
+            if (album == null)
+            {
+                return null;
+            }
+
             song.SongId = Guid.NewGuid();
             song.AlbumId = albumId;
             song.AuthorId = authorId;
@@ -41,12 +55,12 @@ namespace MusicStorageApi.Repositories.Repositories
             return Task.FromResult(songToDelete);
         }
 
-        public Task<List<Song>> GetSongByAlbumId(Guid albumId)
+        public Task<List<Song>> GetSongsByAlbumId(Guid albumId)
         {
             return context.Songs.Where(s => s.AlbumId == albumId).ToListAsync();
         }
 
-        public Task<List<Song>> GetSongByAuthorId(Guid authorId)
+        public Task<List<Song>> GetSongsByAuthorId(Guid authorId)
         {
             return context.Songs.Where(s => s.AuthorId == authorId).ToListAsync();
         }

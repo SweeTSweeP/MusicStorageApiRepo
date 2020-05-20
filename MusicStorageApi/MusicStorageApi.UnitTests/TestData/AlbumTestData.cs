@@ -13,7 +13,7 @@ namespace MusicStorageApi.UnitTests.TestData
 
             for (int i = 0; i < count; i++)
             {
-                authors.Add(CreateAlbum(Guid.Empty, $"Author {i + 1}"));
+                authors.Add(CreateAlbum(Guid.Empty, $"Album {i + 1}"));
             }
 
             return authors;

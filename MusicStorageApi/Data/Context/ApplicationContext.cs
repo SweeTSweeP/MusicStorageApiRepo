@@ -239,7 +239,7 @@ namespace MusicStorageApi.Data.Context
                 new Song 
                 { 
                     SongId = Guid.NewGuid(),
-                    title = "Intolerance",
+                    Title = "Intolerance",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -248,7 +248,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Prison Sex",
+                    Title = "Prison Sex",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -257,7 +257,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Sober",
+                    Title = "Sober",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -266,7 +266,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Bottom",
+                    Title = "Bottom",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -275,7 +275,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Crawl Away",
+                    Title = "Crawl Away",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -284,7 +284,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Swamp Song",
+                    Title = "Swamp Song",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -293,7 +293,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Undertow",
+                    Title = "Undertow",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -302,7 +302,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "4degree",
+                    Title = "4degree",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -311,7 +311,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Flood",
+                    Title = "Flood",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -320,7 +320,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Disgustipated",
+                    Title = "Disgustipated",
                     RecordLabel = toolUndertow.RecordLabel,
                     ReleaseYear = toolUndertow.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -329,7 +329,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Stinkfist",
+                    Title = "Stinkfist",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -338,7 +338,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Eulogy",
+                    Title = "Eulogy",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -347,7 +347,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "H.",
+                    Title = "H.",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -356,7 +356,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Useful Idiot",
+                    Title = "Useful Idiot",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -365,7 +365,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Forty Six & 2",
+                    Title = "Forty Six & 2",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -374,7 +374,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Message to Harry Manback",
+                    Title = "Message to Harry Manback",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -383,7 +383,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Hooker with a Denis",
+                    Title = "Hooker with a Denis",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -392,7 +392,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Intermission",
+                    Title = "Intermission",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -401,7 +401,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "jimmy",
+                    Title = "jimmy",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -410,7 +410,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Die Eier von Satan",
+                    Title = "Die Eier von Satan",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -419,7 +419,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Pushit",
+                    Title = "Pushit",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -428,7 +428,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Cesaro Summability",
+                    Title = "Cesaro Summability",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -437,7 +437,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "AEnema",
+                    Title = "AEnema",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -446,7 +446,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "(-) Ions",
+                    Title = "(-) Ions",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -455,7 +455,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Third Eye",
+                    Title = "Third Eye",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -464,7 +464,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Eulogy",
+                    Title = "Eulogy",
                     RecordLabel = toolAenima.RecordLabel,
                     ReleaseYear = toolAenima.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -473,7 +473,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Grudge",
+                    Title = "The Grudge",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -482,7 +482,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Eon Blue Apocalypse",
+                    Title = "Eon Blue Apocalypse",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -491,7 +491,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Patient",
+                    Title = "The Patient",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -500,7 +500,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Mantra",
+                    Title = "Mantra",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -509,7 +509,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Schism",
+                    Title = "Schism",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -518,7 +518,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Parabol",
+                    Title = "Parabol",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -527,7 +527,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Parabola",
+                    Title = "Parabola",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -536,7 +536,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ticks & Leeches",
+                    Title = "Ticks & Leeches",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -545,7 +545,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Lateralus",
+                    Title = "Lateralus",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -554,7 +554,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Disposition",
+                    Title = "Disposition",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -563,7 +563,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Reflection",
+                    Title = "Reflection",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -572,7 +572,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Triad",
+                    Title = "Triad",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -581,7 +581,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Faaip de Oiad",
+                    Title = "Faaip de Oiad",
                     RecordLabel = toolLateralus.RecordLabel,
                     ReleaseYear = toolLateralus.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -590,7 +590,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Vicarious",
+                    Title = "Vicarious",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -599,7 +599,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Jambi",
+                    Title = "Jambi",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -608,7 +608,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Wings for Marie",
+                    Title = "Wings for Marie",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -617,7 +617,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "10,000 Days",
+                    Title = "10,000 Days",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -626,7 +626,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Pot",
+                    Title = "The Pot",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -635,7 +635,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Lipan Conjuring",
+                    Title = "Lipan Conjuring",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -644,7 +644,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Lost Keys",
+                    Title = "Lost Keys",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -653,7 +653,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Rosetta Stoned",
+                    Title = "Rosetta Stoned",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -662,7 +662,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Intension",
+                    Title = "Intension",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -671,7 +671,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Right in Two",
+                    Title = "Right in Two",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -680,7 +680,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Viginti Tres",
+                    Title = "Viginti Tres",
                     RecordLabel = toolTenThousandDays.RecordLabel,
                     ReleaseYear = toolTenThousandDays.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -689,7 +689,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Fear Inoculum",
+                    Title = "Fear Inoculum",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -698,7 +698,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Pneuma",
+                    Title = "Pneuma",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -707,7 +707,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Litanie contre la peur",
+                    Title = "Litanie contre la peur",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -716,7 +716,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Invincible",
+                    Title = "Invincible",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -725,7 +725,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Legion Inoculant",
+                    Title = "Legion Inoculant",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -734,7 +734,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Descending",
+                    Title = "Descending",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -743,7 +743,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Culling Voices",
+                    Title = "Culling Voices",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -752,7 +752,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Chocolate Chip Trip",
+                    Title = "Chocolate Chip Trip",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -761,7 +761,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "7empest",
+                    Title = "7empest",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -770,7 +770,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Mockingbeat",
+                    Title = "Mockingbeat",
                     RecordLabel = toolFearInoculum.RecordLabel,
                     ReleaseYear = toolFearInoculum.ReleaseYear,
                     AuthorId = tool.AuthorId,
@@ -779,7 +779,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Crusher Destroyer",
+                    Title = "Crusher Destroyer",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -788,7 +788,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "March of the Fire Ants",
+                    Title = "March of the Fire Ants",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -797,7 +797,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Where Strides the Behemoth",
+                    Title = "Where Strides the Behemoth",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -806,7 +806,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Workhorse",
+                    Title = "Workhorse",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -815,7 +815,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ol'e Nessie",
+                    Title = "Ol'e Nessie",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -824,7 +824,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Burning Man",
+                    Title = "Burning Man",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -833,7 +833,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Trainwreck",
+                    Title = "Trainwreck",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -842,7 +842,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Trempled Under Hoof",
+                    Title = "Trempled Under Hoof",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -851,7 +851,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Triobite",
+                    Title = "Triobite",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -860,7 +860,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Mother Puncher",
+                    Title = "Mother Puncher",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -869,7 +869,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Elephant Man",
+                    Title = "Elephant Man",
                     RecordLabel = mastodonRemission.RecordLabel,
                     ReleaseYear = mastodonRemission.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -878,7 +878,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Blood and Thunder",
+                    Title = "Blood and Thunder",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -887,7 +887,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I Am Ahab",
+                    Title = "I Am Ahab",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -896,7 +896,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Seabeast",
+                    Title = "Seabeast",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -905,7 +905,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Island",
+                    Title = "Island",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -914,7 +914,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Iron Tusk",
+                    Title = "Iron Tusk",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -923,7 +923,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Megalodon",
+                    Title = "Megalodon",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -932,7 +932,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Naked Burn",
+                    Title = "Naked Burn",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -941,7 +941,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Aqua Dementia",
+                    Title = "Aqua Dementia",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -950,7 +950,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Hearts Alive",
+                    Title = "Hearts Alive",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -959,7 +959,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Joseph Merrick",
+                    Title = "Joseph Merrick",
                     RecordLabel = mastodonLeviathan.RecordLabel,
                     ReleaseYear = mastodonLeviathan.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -968,7 +968,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Wolf Is Loose",
+                    Title = "The Wolf Is Loose",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -977,7 +977,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Crystal Skull",
+                    Title = "Crystal Skull",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -986,7 +986,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Sleeping Giant",
+                    Title = "Sleeping Giant",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -995,7 +995,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Capillarian Crest",
+                    Title = "Capillarian Crest",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1004,7 +1004,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Circle of Cysquatch",
+                    Title = "Circle of Cysquatch",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1013,7 +1013,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Bladecatcher",
+                    Title = "Bladecatcher",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1022,7 +1022,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Colony of Birchmen",
+                    Title = "Colony of Birchmen",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1031,7 +1031,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Hunters of the Sky",
+                    Title = "Hunters of the Sky",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1040,7 +1040,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Hand of Stone",
+                    Title = "Hand of Stone",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1049,7 +1049,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "This Mortal Soil",
+                    Title = "This Mortal Soil",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1058,7 +1058,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Siberian Divide",
+                    Title = "Siberian Divide",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1067,7 +1067,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Pendulous Skin",
+                    Title = "Pendulous Skin",
                     RecordLabel = mastodonBloodMountain.RecordLabel,
                     ReleaseYear = mastodonBloodMountain.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1076,7 +1076,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Oblivion",
+                    Title = "Oblivion",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1085,7 +1085,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Divinations",
+                    Title = "Divinations",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1094,7 +1094,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Quintessence",
+                    Title = "Quintessence",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1103,7 +1103,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Czar",
+                    Title = "The Czar",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1112,7 +1112,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ghost of Karelia",
+                    Title = "Ghost of Karelia",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1121,7 +1121,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Crack the Skye",
+                    Title = "Crack the Skye",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1130,7 +1130,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Last Baron",
+                    Title = "The Last Baron",
                     RecordLabel = mastodonCrackTheSkye.RecordLabel,
                     ReleaseYear = mastodonCrackTheSkye.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1139,7 +1139,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Black Tongue",
+                    Title = "Black Tongue",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1148,7 +1148,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Curl of the Buri",
+                    Title = "Curl of the Buri",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1157,7 +1157,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Blasteroid",
+                    Title = "Blasteroid",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1166,7 +1166,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Stargasm",
+                    Title = "Stargasm",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1175,7 +1175,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Octupus Has No Friends",
+                    Title = "Octupus Has No Friends",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1184,7 +1184,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "All the Heavy Lifting",
+                    Title = "All the Heavy Lifting",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1193,7 +1193,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Hunter",
+                    Title = "The Hunter",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1202,7 +1202,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Dry Bone Valley",
+                    Title = "Dry Bone Valley",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1211,7 +1211,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Thickening",
+                    Title = "Thickening",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1220,7 +1220,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Creature Lives",
+                    Title = "Creature Lives",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1230,7 +1230,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Spectrelight",
+                    Title = "Spectrelight",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1239,7 +1239,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Bedazzled Fingernails",
+                    Title = "Bedazzled Fingernails",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1248,7 +1248,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Sparrow",
+                    Title = "The Sparrow",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1257,7 +1257,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Ruiner",
+                    Title = "The Ruiner",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1266,7 +1266,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Deathbound",
+                    Title = "Deathbound",
                     RecordLabel = mastodonTheHunter.RecordLabel,
                     ReleaseYear = mastodonTheHunter.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1275,7 +1275,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Tread Lightly",
+                    Title = "Tread Lightly",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1284,7 +1284,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Motherload",
+                    Title = "The Motherload",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1293,7 +1293,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "High Road",
+                    Title = "High Road",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1302,7 +1302,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Once More 'Round the Sun",
+                    Title = "Once More 'Round the Sun",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1311,7 +1311,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Chimes at Midnight",
+                    Title = "Chimes at Midnight",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1320,7 +1320,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Asleep in the Deep",
+                    Title = "Asleep in the Deep",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1329,7 +1329,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Feast Your Eyes",
+                    Title = "Feast Your Eyes",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1338,7 +1338,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Aunt Lisa",
+                    Title = "Aunt Lisa",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1347,7 +1347,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ember City",
+                    Title = "Ember City",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1356,7 +1356,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Halloween",
+                    Title = "Halloween",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1365,7 +1365,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Diamond in the Witch House",
+                    Title = "Diamond in the Witch House",
                     RecordLabel = mastodonOnceMoreRoundTheSun.RecordLabel,
                     ReleaseYear = mastodonOnceMoreRoundTheSun.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1374,7 +1374,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Sultan's Curse",
+                    Title = "Sultan's Curse",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1383,7 +1383,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Show Yourself",
+                    Title = "Show Yourself",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1392,7 +1392,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Precious Stones",
+                    Title = "Precious Stones",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1401,7 +1401,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Steambreather",
+                    Title = "Steambreather",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1410,7 +1410,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Roots Remain",
+                    Title = "Roots Remain",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1419,7 +1419,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Word to the Wise",
+                    Title = "Word to the Wise",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1428,7 +1428,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ancient to the Wise",
+                    Title = "Ancient to the Wise",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1437,7 +1437,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Ancient Kingdom",
+                    Title = "Ancient Kingdom",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1446,7 +1446,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Cleandestiny",
+                    Title = "Cleandestiny",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1455,7 +1455,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Andromeda",
+                    Title = "Andromeda",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1464,7 +1464,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Scorpion Breath",
+                    Title = "Scorpion Breath",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1473,7 +1473,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Jaguar God",
+                    Title = "Jaguar God",
                     RecordLabel = mastodonEmperorOfSand.RecordLabel,
                     ReleaseYear = mastodonEmperorOfSand.ReleaseYear,
                     AuthorId = mastodon.AuthorId,
@@ -1482,7 +1482,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Push It",
+                    Title = "Push It",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1491,7 +1491,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I'm with Stupid",
+                    Title = "I'm with Stupid",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1500,7 +1500,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Bled for Days",
+                    Title = "Bled for Days",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1509,7 +1509,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Love Dump",
+                    Title = "Love Dump",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1518,7 +1518,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I Am",
+                    Title = "I Am",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1527,7 +1527,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Otsegoldation",
+                    Title = "Otsegoldation",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1536,7 +1536,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Stem",
+                    Title = "Stem",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1545,7 +1545,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Sweat of the Bud",
+                    Title = "Sweat of the Bud",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1554,7 +1554,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Fix",
+                    Title = "Fix",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1563,7 +1563,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Wisconsin Death Trip",
+                    Title = "Wisconsin Death Trip",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1572,7 +1572,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "December",
+                    Title = "December",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1581,7 +1581,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Down",
+                    Title = "Down",
                     RecordLabel = staticxWisconsinDeathTrip.RecordLabel,
                     ReleaseYear = staticxWisconsinDeathTrip.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1590,7 +1590,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Bien Venidos",
+                    Title = "Bien Venidos",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1599,7 +1599,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Get to the Gone",
+                    Title = "Get to the Gone",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1608,7 +1608,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Permance",
+                    Title = "Permance",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1617,7 +1617,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Black and White",
+                    Title = "Black and White",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1626,7 +1626,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "This Is Not",
+                    Title = "This Is Not",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1635,7 +1635,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Otsego Undead",
+                    Title = "Otsego Undead",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1644,7 +1644,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Cold",
+                    Title = "Cold",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1653,7 +1653,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Structural Defect",
+                    Title = "Structural Defect",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1662,7 +1662,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "... In a Bag",
+                    Title = "... In a Bag",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1671,7 +1671,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Burn to Burn",
+                    Title = "Burn to Burn",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1680,7 +1680,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Machine",
+                    Title = "Machine",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1689,7 +1689,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "A Dios Alma Perdida",
+                    Title = "A Dios Alma Perdida",
                     RecordLabel = staticxMachine.RecordLabel,
                     ReleaseYear = staticxMachine.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1698,7 +1698,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Destroy All",
+                    Title = "Destroy All",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1707,7 +1707,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Control It",
+                    Title = "Control It",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1716,7 +1716,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "New Plain",
+                    Title = "New Plain",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1725,7 +1725,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Shadow Zone",
+                    Title = "Shadow Zone",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1734,7 +1734,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Dead World",
+                    Title = "Dead World",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1743,7 +1743,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Monster",
+                    Title = "Monster",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1752,7 +1752,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Only",
+                    Title = "The Only",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1761,7 +1761,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Kill Your Idols",
+                    Title = "Kill Your Idols",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1770,7 +1770,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "All in Wait",
+                    Title = "All in Wait",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1779,7 +1779,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Otsegolectric",
+                    Title = "Otsegolectric",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1788,7 +1788,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "So",
+                    Title = "So",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1797,7 +1797,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Transmission",
+                    Title = "Transmission",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1806,7 +1806,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Invincible",
+                    Title = "Invincible",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1815,7 +1815,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Gimme Gimme Shock Treatment",
+                    Title = "Gimme Gimme Shock Treatment",
                     RecordLabel = staticxShadowZone.RecordLabel,
                     ReleaseYear = staticxShadowZone.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1824,7 +1824,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "The Enemy",
+                    Title = "The Enemy",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1833,7 +1833,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I'm the One",
+                    Title = "I'm the One",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1842,7 +1842,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Start a War",
+                    Title = "Start a War",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1851,7 +1851,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Pieces",
+                    Title = "Pieces",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1860,7 +1860,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Dirthouse",
+                    Title = "Dirthouse",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1869,7 +1869,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Skinnyman",
+                    Title = "Skinnyman",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1878,7 +1878,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Just in Case",
+                    Title = "Just in Case",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1887,7 +1887,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Set It Off",
+                    Title = "Set It Off",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1896,7 +1896,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I Want to Fucking break It",
+                    Title = "I Want to Fucking break It",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1905,7 +1905,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Night Terrors",
+                    Title = "Night Terrors",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1914,7 +1914,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Otsego Amigo",
+                    Title = "Otsego Amigo",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1923,7 +1923,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "My Damnation",
+                    Title = "My Damnation",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1932,7 +1932,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Brainfog",
+                    Title = "Brainfog",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1941,7 +1941,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Get to the Gone",
+                    Title = "Get to the Gone",
                     RecordLabel = staticxStartAWar.RecordLabel,
                     ReleaseYear = staticxStartAWar.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1950,7 +1950,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Cannibal",
+                    Title = "Cannibal",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1959,7 +1959,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "No Submission",
+                    Title = "No Submission",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1968,7 +1968,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Behemoth",
+                    Title = "Behemoth",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1977,7 +1977,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Chemical Logic",
+                    Title = "Chemical Logic",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1986,7 +1986,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Destroyer",
+                    Title = "Destroyer",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -1995,7 +1995,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Forty Ways",
+                    Title = "Forty Ways",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2004,7 +2004,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Chroma-Matic",
+                    Title = "Chroma-Matic",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2013,7 +2013,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Cuts You Up",
+                    Title = "Cuts You Up",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2022,7 +2022,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Reptile",
+                    Title = "Reptile",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2031,7 +2031,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Electric Pulse",
+                    Title = "Electric Pulse",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2040,7 +2040,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Goat",
+                    Title = "Goat",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2049,7 +2049,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Team Hate",
+                    Title = "Team Hate",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2058,7 +2058,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Light It Up",
+                    Title = "Light It Up",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2067,7 +2067,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "I'm the One",
+                    Title = "I'm the One",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2076,7 +2076,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Get Up and Boogie",
+                    Title = "Get Up and Boogie",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2085,7 +2085,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Beneath, Between, Beyond",
+                    Title = "Beneath, Between, Beyond",
                     RecordLabel = staticxCannibal.RecordLabel,
                     ReleaseYear = staticxCannibal.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2094,7 +2094,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Lunatic",
+                    Title = "Lunatic",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2103,7 +2103,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Z28",
+                    Title = "Z28",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2112,7 +2112,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Terminal",
+                    Title = "Terminal",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2121,7 +2121,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Hypure",
+                    Title = "Hypure",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2130,7 +2130,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Tera-Fied",
+                    Title = "Tera-Fied",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2139,7 +2139,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Stringwray",
+                    Title = "Stringwray",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2148,7 +2148,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "You Am I",
+                    Title = "You Am I",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2157,7 +2157,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Isolaytore",
+                    Title = "Isolaytore",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2166,7 +2166,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Nocturnally",
+                    Title = "Nocturnally",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2175,7 +2175,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Skinned",
+                    Title = "Skinned",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2184,7 +2184,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Grind 2 Halt",
+                    Title = "Grind 2 Halt",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2193,7 +2193,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Still of the Night",
+                    Title = "Still of the Night",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2202,7 +2202,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "W.F.O",
+                    Title = "W.F.O",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2211,7 +2211,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Looks That Kill",
+                    Title = "Looks That Kill",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,
@@ -2220,7 +2220,7 @@ namespace MusicStorageApi.Data.Context
                 new Song
                 {
                     SongId = Guid.NewGuid(),
-                    title = "Talk Dirty to Me",
+                    Title = "Talk Dirty to Me",
                     RecordLabel = staticxCultOfStatic.RecordLabel,
                     ReleaseYear = staticxCultOfStatic.ReleaseYear,
                     AuthorId = staticX.AuthorId,

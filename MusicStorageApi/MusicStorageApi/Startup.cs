@@ -25,9 +25,9 @@ namespace MusicStorageApi
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
 
             services.AddDbContext<ApplicationContext>(options => options.UseSqlServer(connectionString, b => b.MigrationsAssembly("MusicStorageApi")));
-            services.AddSingleton<IAuthorRepository, AuthorRepository>();
-            services.AddSingleton<IAlbumRepository, AlbumRepository>();
-            services.AddSingleton<ISongRepository, SongRepository>();
+            services.AddTransient<IAuthorRepository, AuthorRepository>();
+            services.AddTransient<IAlbumRepository, AlbumRepository>();
+            services.AddTransient<ISongRepository, SongRepository>();
             services.AddControllers();
         }
 

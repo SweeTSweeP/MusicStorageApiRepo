@@ -10,7 +10,7 @@ namespace MusicStorageApi.Models.Entities
     public class Song
     {
         public Guid SongId { get; set; }
-        public string title { get; set; }
+        public string Title { get; set; }
         public string ReleaseYear { get; set; }
         public string RecordLabel { get; set; }
         public Guid? AlbumId { get; set; }

@@ -90,29 +90,6 @@ namespace MusicStorageApi.UnitTests.AuthorTests
             Assert.AreEqual(expected.StatusCode, result.StatusCode);
         }
 
-        [Test]
-        public async Task GetAlbumsByAuthorId()
-        {
-            var author = new AuthorTestData().CreateAthor("TestAuthor");
-
-            var albums = AlbumTestData.CreateMultipleAlubums(2);
-
-            albums.ForEach(s => s.AuthorId = author.AuthorId);
-
-            AlbumRepositoryMock
-                .Setup(m => m.GetAlbums())
-                .Returns(Task.FromResult(albums));
-
-            AlbumController controller = new AlbumController(AlbumRepositoryMock.Object);
-
-            var response = await controller.GetAlbumsByAuthorIdAsync(author.AuthorId);
-
-            var result = (response as OkObjectResult).Value as List<Album>;
-
-            Assert.IsNotNull(result);
-            Assert.AreEqual(albums, result);
-        }
-
         [TearDown]
         public void TearDown()
         {

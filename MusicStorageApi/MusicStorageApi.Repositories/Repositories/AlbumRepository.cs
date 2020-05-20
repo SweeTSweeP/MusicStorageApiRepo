@@ -21,6 +21,13 @@ namespace MusicStorageApi.Repositories.Repositories
 
         public Task<Album> CreateAlbum(Guid authorId, Album album)
         {
+            var author = context.Authors.Find(authorId);
+
+            if (author == null)
+            {
+                return null;
+            }
+
             album.AlbumId = Guid.NewGuid();
             album.AuthorId = authorId;
 
@@ -46,6 +53,11 @@ namespace MusicStorageApi.Repositories.Repositories
         public Task<List<Album>> GetAlbums()
         {
             return context.Albums.ToListAsync();
+        }
+
+        public Task<List<Album>> GetAlbumsByAuthorId(Guid authorId)
+        {
+            return context.Albums.Where(s => s.AuthorId == authorId).ToListAsync();
         }
 
         public Task<Album> UpdateAlbum(Guid albumId, Album album)

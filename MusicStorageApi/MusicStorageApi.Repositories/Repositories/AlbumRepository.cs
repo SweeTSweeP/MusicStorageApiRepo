@@ -1,10 +1,12 @@
-﻿using MusicStorageApi.Data.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicStorageApi.Data.Context;
 using MusicStorageApi.Models.Entities;
 using MusicStorageApi.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MusicStorageApi.Repositories.Repositories
 {
@@ -17,41 +19,42 @@ namespace MusicStorageApi.Repositories.Repositories
             context = _context;
         }
 
-        public Album CreateAlbum(Album album)
+        public Task<Album> CreateAlbum(Guid authorId, Album album)
         {
             album.AlbumId = Guid.NewGuid();
+            album.AuthorId = authorId;
 
-            context.Albums.Add(album);
+            context.Albums.AddAsync(album);
             context.SaveChanges();
 
-            return album;
+            return Task.FromResult(album);
         }
 
-        public Album DeleteAlbum(Guid albumId)
+        public Task<Album> DeleteAlbum(Guid albumId)
         {
             var albumToDelete = context.Albums.Find(albumId);
             context.Albums.Remove(albumToDelete);
 
-            return albumToDelete;
+            return Task.FromResult(albumToDelete);
         }
 
-        public Album GetAlbumById(Guid albumId)
+        public Task<Album> GetAlbumById(Guid albumId)
         {
-            return context.Albums.Find(albumId);
+            return context.Albums.FirstOrDefaultAsync(s => s.AlbumId == albumId);
         }
 
-        public List<Album> GetAlbums()
+        public Task<List<Album>> GetAlbums()
         {
-            return context.Albums.ToList();
+            return context.Albums.ToListAsync();
         }
 
-        public Album UpdateAlbum(Guid albumId, Album album)
+        public Task<Album> UpdateAlbum(Guid albumId, Album album)
         {
             album.AlbumId = albumId;
             context.Albums.Update(album);
             context.SaveChanges();
 
-            return album;
+            return Task.FromResult(album);
         }
     }
 }

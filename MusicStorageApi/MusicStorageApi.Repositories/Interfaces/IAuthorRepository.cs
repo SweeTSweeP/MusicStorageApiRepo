@@ -12,6 +12,6 @@ namespace MusicStorageApi.Repositories.Interfaces
         public Task<Author> GetAuthorById(Guid authorId);
         public Task<Author> CreateAuthor(Author author);
         public Task<Author> UpdateAuthor(Guid authorId, Author author);
-        public Author DeleteAuthor(Guid authorId);
+        public Task<Author> DeleteAuthor(Guid authorId);
     }
 }

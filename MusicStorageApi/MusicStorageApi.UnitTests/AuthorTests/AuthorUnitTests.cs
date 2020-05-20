@@ -139,6 +139,93 @@ namespace MusicStorageApi.UnitTests.AuthorTests
             Assert.AreEqual(updatedAuthor.AuthorName, result.AuthorName);
         }
 
+        [Test]
+        public async Task UpdateNonExistAuthor()
+        {
+            var author = AuthorTestData.CreateAthor("Test Author");
+
+            AuthorRepositoryMock
+                .Setup(m => m.CreateAuthor(author))
+                .Returns(Task.FromResult(author));
+
+            AuthorRepositoryMock
+                .Setup(m => m.GetAuthorById(author.AuthorId))
+                .Returns(Task.FromResult(author));
+
+            var updatedAuthor = AuthorTestData.CreateAthor("Updated Test Author");
+
+            AuthorRepositoryMock
+                .Setup(m => m.UpdateAuthor(author.AuthorId, updatedAuthor))
+                .Returns(Task.FromResult(updatedAuthor));
+
+            AuthorController controller = new AuthorController(AuthorRepositoryMock.Object);
+
+            await controller.CreateAuthorAsync(author);
+
+            var response = await controller.UpdateAuthorAsync(Guid.NewGuid(), updatedAuthor);
+
+            var result = response as NotFoundResult;
+            var expected = new NotFoundResult();
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(expected.StatusCode, result.StatusCode);
+        }
+
+        [Test]
+        public async Task DeleteAuthor()
+        {
+            var author = AuthorTestData.CreateAthor("Test Author");
+
+            AuthorRepositoryMock
+               .Setup(m => m.CreateAuthor(author))
+               .Returns(Task.FromResult(author));
+
+            AuthorRepositoryMock
+                .Setup(m => m.GetAuthorById(author.AuthorId))
+                .Returns(Task.FromResult(author));
+
+            AuthorRepositoryMock
+               .Setup(m => m.DeleteAuthor(author.AuthorId))
+               .Returns(Task.FromResult(author));
+
+            AuthorController controller = new AuthorController(AuthorRepositoryMock.Object);
+
+            var response = await controller.DeleteAuthorAsync(author.AuthorId);
+
+            var result = (response as OkObjectResult).Value as Author;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(author.AuthorName, result.AuthorName);
+        }
+
+        [Test]
+        public async Task DeleteNonExistAuthor()
+        {
+            var author = AuthorTestData.CreateAthor("Test Author");
+
+            AuthorRepositoryMock
+               .Setup(m => m.CreateAuthor(author))
+               .Returns(Task.FromResult(author));
+
+            AuthorRepositoryMock
+                .Setup(m => m.GetAuthorById(author.AuthorId))
+                .Returns(Task.FromResult(author));
+
+            AuthorRepositoryMock
+               .Setup(m => m.DeleteAuthor(author.AuthorId))
+               .Returns(Task.FromResult(author));
+
+            AuthorController controller = new AuthorController(AuthorRepositoryMock.Object);
+
+            var response = await controller.DeleteAuthorAsync(Guid.NewGuid());
+
+            var result = response as NotFoundResult;
+            var expected = new NotFoundResult();
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(expected.StatusCode, result.StatusCode);
+        }
+
         [TearDown]
         public void TearDown()
         {

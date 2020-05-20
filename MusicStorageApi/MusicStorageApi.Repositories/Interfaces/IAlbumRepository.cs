@@ -2,15 +2,16 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MusicStorageApi.Repositories.Interfaces
 {
     public interface IAlbumRepository
     {
-        public List<Album> GetAlbums();
-        public Album GetAlbumById(Guid albumId);
-        public Album CreateAlbum(Album album);
-        public Album UpdateAlbum(Guid albumId, Album album);
-        public Album DeleteAlbum(Guid albumId);
+        public Task<List<Album>> GetAlbums();
+        public Task<Album> GetAlbumById(Guid albumId);
+        public Task<Album> CreateAlbum(Guid authorId, Album album);
+        public Task<Album> UpdateAlbum(Guid albumId, Album album);
+        public Task<Album> DeleteAlbum(Guid albumId);
     }
 }

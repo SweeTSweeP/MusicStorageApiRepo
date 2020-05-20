@@ -7,3 +7,8 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Reposi
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.AssemblyInfo.cs
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Data.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Data.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Repositories\obj\Debug\netcoreapp3.1\MusicStorageApi.Repositories.csproj.CopyComplete

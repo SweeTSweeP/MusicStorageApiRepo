@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Data\MusicStorageApi.Data.csproj" />
+    <ProjectReference Include="..\MusicStorageApi.Models\MusicStorageApi.Models.csproj" />
+  </ItemGroup>
+
 </Project>

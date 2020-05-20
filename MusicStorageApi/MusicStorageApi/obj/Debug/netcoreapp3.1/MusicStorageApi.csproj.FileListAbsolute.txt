@@ -114,3 +114,5 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\De
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.pdb
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.genruntimeconfig.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb

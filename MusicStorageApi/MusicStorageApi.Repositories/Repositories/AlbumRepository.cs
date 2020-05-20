@@ -8,7 +8,7 @@ using System.Text;
 
 namespace MusicStorageApi.Repositories.Repositories
 {
-    class AlbumRepository : IAlbumRepository
+    public class AlbumRepository : IAlbumRepository
     {
         private readonly ApplicationContext context;
 

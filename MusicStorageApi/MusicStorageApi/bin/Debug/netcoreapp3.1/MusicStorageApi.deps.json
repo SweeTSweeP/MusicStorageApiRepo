@@ -28,6 +28,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.4",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
           "MusicStorageApi.Data": "1.0.0",
+          "MusicStorageApi.Repositories": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -1236,6 +1237,18 @@
         },
         "compile": {
           "MusicStorageApi.Models.dll": {}
+        }
+      },
+      "MusicStorageApi.Repositories/1.0.0": {
+        "dependencies": {
+          "MusicStorageApi.Data": "1.0.0",
+          "MusicStorageApi.Models": "1.0.0"
+        },
+        "runtime": {
+          "MusicStorageApi.Repositories.dll": {}
+        },
+        "compile": {
+          "MusicStorageApi.Repositories.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -3482,6 +3495,11 @@
       "sha512": ""
     },
     "MusicStorageApi.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MusicStorageApi.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

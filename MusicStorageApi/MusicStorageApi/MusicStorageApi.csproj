@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Data\MusicStorageApi.Data.csproj" />
+    <ProjectReference Include="..\MusicStorageApi.Repositories\MusicStorageApi.Repositories.csproj" />
   </ItemGroup>
 
 

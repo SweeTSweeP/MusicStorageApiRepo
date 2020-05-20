@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStorageApi.Models", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStorageApi.Data", "Data\MusicStorageApi.Data.csproj", "{C2D9CD45-DFD2-4DF4-86F2-3D42E5E22C5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStorageApi.Repositories", "MusicStorageApi.Repositories\MusicStorageApi.Repositories.csproj", "{2E151AAE-1F8F-4EAF-A6D6-B30078CE1DD4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MusicStorageApi.Repositories", "MusicStorageApi.Repositories\MusicStorageApi.Repositories.csproj", "{2E151AAE-1F8F-4EAF-A6D6-B30078CE1DD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStorageApi.UnitTests", "MusicStorageApi.UnitTests\MusicStorageApi.UnitTests.csproj", "{DB4F865F-82B6-4676-983C-F8812F105467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStorageApi.Controllers", "MusicStorageApi.Controllers\MusicStorageApi.Controllers.csproj", "{190AC495-D3D1-41C8-9240-17312D0A50D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{2E151AAE-1F8F-4EAF-A6D6-B30078CE1DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E151AAE-1F8F-4EAF-A6D6-B30078CE1DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E151AAE-1F8F-4EAF-A6D6-B30078CE1DD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB4F865F-82B6-4676-983C-F8812F105467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4F865F-82B6-4676-983C-F8812F105467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4F865F-82B6-4676-983C-F8812F105467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4F865F-82B6-4676-983C-F8812F105467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190AC495-D3D1-41C8-9240-17312D0A50D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190AC495-D3D1-41C8-9240-17312D0A50D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190AC495-D3D1-41C8-9240-17312D0A50D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190AC495-D3D1-41C8-9240-17312D0A50D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

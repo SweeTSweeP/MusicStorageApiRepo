@@ -1,0 +1,16 @@
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.deps.json
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Data.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Repositories.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Data.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csprojAssemblyReference.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.AssemblyInfoInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.AssemblyInfo.cs
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csproj.CopyComplete
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb

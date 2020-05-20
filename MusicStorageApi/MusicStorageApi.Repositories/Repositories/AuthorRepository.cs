@@ -1,10 +1,12 @@
-﻿using MusicStorageApi.Data.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicStorageApi.Data.Context;
 using MusicStorageApi.Models.Entities;
 using MusicStorageApi.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MusicStorageApi.Repositories.Repositories
 {
@@ -17,42 +19,42 @@ namespace MusicStorageApi.Repositories.Repositories
             context = _context;
         }
 
-        public Author CreateAuthor(Author author)
+        public Task<Author> CreateAuthor(Author author)
         {
             author.AuthorId = Guid.NewGuid();
 
-            context.Authors.Add(author);
+            context.Authors.AddAsync(author);
             context.SaveChanges();
 
-            return author;
+            return Task.FromResult(author);
         }
 
-        public Author DeleteAuthor(Guid authorId)
+        public Task<Author> DeleteAuthor(Guid authorId)
         {
             var authorToDelete = context.Authors.Find(authorId);
             context.Authors.Remove(authorToDelete);
             context.SaveChanges();
 
-            return authorToDelete;
+            return Task.FromResult(authorToDelete);
         }
 
-        public Author GetAuthorById(Guid authorId)
+        public Task<Author> GetAuthorById(Guid authorId)
         {
-            return context.Authors.Find(authorId);
+            return context.Authors.FirstOrDefaultAsync(s => s.AuthorId == authorId);
         }
 
-        public List<Author> GetAuthors()
+        public Task<List<Author>> GetAuthors()
         {
-            return context.Authors.ToList();
+            return context.Authors.ToListAsync();
         }
 
-        public Author UpdateAuthor(Guid authorId, Author author)
+        public Task<Author> UpdateAuthor(Guid authorId, Author author)
         {
             author.AuthorId = authorId;
             context.Authors.Update(author);
             context.SaveChanges();
 
-            return author;
+            return Task.FromResult(author);
         }
     }
 }

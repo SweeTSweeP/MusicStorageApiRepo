@@ -12,6 +12,7 @@ using System;
 
 namespace MusicStorageApi.UnitTests.AuthorTests
 {
+    [TestFixture]
     class AuthorUnitTests
     {
         private AuthorTestData AuthorTestData;

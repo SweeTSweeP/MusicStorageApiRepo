@@ -1,10 +1,12 @@
-﻿using MusicStorageApi.Data.Context;
+﻿using Microsoft.EntityFrameworkCore;
+using MusicStorageApi.Data.Context;
 using MusicStorageApi.Models.Entities;
 using MusicStorageApi.Repositories.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace MusicStorageApi.Repositories.Repositories
 {
@@ -17,44 +19,56 @@ namespace MusicStorageApi.Repositories.Repositories
             context = _context;
         }
 
-        public Song CreateSong(Song song)
+        public Task<Song> CreateSong(Guid authorId, Guid albumId, Song song)
         {
             song.SongId = Guid.NewGuid();
+            song.AlbumId = albumId;
+            song.AuthorId = authorId;
 
             context.Songs.Add(song);
             context.SaveChanges();
 
-            return song;
+            return Task.FromResult(song);
         }
 
-        public Song DeleteSong(Guid songId)
+        public Task<Song> DeleteSong(Guid songId)
         {
             var songToDelete = context.Songs.Find(songId);
 
             context.Songs.Remove(songToDelete);
             context.SaveChanges();
 
-            return songToDelete;
+            return Task.FromResult(songToDelete);
         }
 
-        public Song GetSongById(Guid songId)
+        public Task<List<Song>> GetSongByAlbumId(Guid albumId)
         {
-            return context.Songs.Find(songId);
+            return context.Songs.Where(s => s.AlbumId == albumId).ToListAsync();
         }
 
-        public List<Song> GetSongs()
+        public Task<List<Song>> GetSongByAuthorId(Guid authorId)
         {
-            return context.Songs.ToList();
+            return context.Songs.Where(s => s.AuthorId == authorId).ToListAsync();
         }
 
-        public Song UpdateSong(Guid songId, Song song)
+        public Task<Song> GetSongById(Guid songId)
+        {
+            return context.Songs.FirstOrDefaultAsync(s => s.SongId == songId);
+        }
+
+        public Task<List<Song>> GetSongs()
+        {
+            return context.Songs.ToListAsync();
+        }
+
+        public Task<Song> UpdateSong(Guid songId, Song song)
         {
             song.SongId = songId;
 
             context.Songs.Update(song);
             context.SaveChanges();
 
-            return song;
+            return Task.FromResult(song);
         }
     }
 }

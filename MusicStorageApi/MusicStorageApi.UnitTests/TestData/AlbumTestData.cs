@@ -1,4 +1,5 @@
-﻿using MusicStorageApi.Models.Entities;
+﻿using Microsoft.EntityFrameworkCore.Query.Internal;
+using MusicStorageApi.Models.Entities;
 using System;
 using System.Collections.Generic;
 
@@ -12,17 +13,18 @@ namespace MusicStorageApi.UnitTests.TestData
 
             for (int i = 0; i < count; i++)
             {
-                authors.Add(CreateAlbum($"Author {i + 1}"));
+                authors.Add(CreateAlbum(Guid.Empty, $"Author {i + 1}"));
             }
 
             return authors;
         }
 
-        public Album CreateAlbum(string albumTitle)
+        public Album CreateAlbum(Guid authorId, string albumTitle)
         {
             return new Album
             {
                 AlbumId = Guid.NewGuid(),
+                AuthorId = authorId,
                 Genre = "Some Genre",
                 RecordLabel = "Label records",
                 ReleaseYear = "2000",

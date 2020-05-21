@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using MusicStorageApi.Data.Context;
 using MusicStorageApi.Repositories.Interfaces;
 using MusicStorageApi.Repositories.Repositories;
+using Newtonsoft.Json;
 
 namespace MusicStorageApi
 {
@@ -28,7 +29,7 @@ namespace MusicStorageApi
             services.AddTransient<IAuthorRepository, AuthorRepository>();
             services.AddTransient<IAlbumRepository, AlbumRepository>();
             services.AddTransient<ISongRepository, SongRepository>();
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(options => options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

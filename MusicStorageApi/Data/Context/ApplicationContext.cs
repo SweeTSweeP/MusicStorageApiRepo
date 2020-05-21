@@ -2227,6 +2227,16 @@ namespace MusicStorageApi.Data.Context
                     AlbumId = staticxCultOfStatic.AlbumId
                 }
                 );
+
+            modelBuilder.Entity<Album>()
+                .HasOne(p => p.Author)
+                .WithMany(t => t.Albums)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Song>()
+                .HasOne(p => p.Album)
+                .WithMany(t => t.Songs)
+                .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }

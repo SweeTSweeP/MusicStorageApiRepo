@@ -28,9 +28,9 @@ namespace MusicStorageApi.Repositories.Repositories
                 return null;
             }
 
-            var album = author.Albums.FirstOrDefault(s => s.AlbumId == albumId);
+            var album = context.Albums.Find(albumId);
 
-            if (album == null)
+            if (album == null || album.AuthorId != authorId)
             {
                 return null;
             }
@@ -77,12 +77,16 @@ namespace MusicStorageApi.Repositories.Repositories
 
         public Task<Song> UpdateSong(Guid songId, Song song)
         {
-            song.SongId = songId;
+            var songToUpdate = context.Songs.FirstOrDefault(s => s.SongId == songId);
 
-            context.Songs.Update(song);
+            songToUpdate.SongId = songId;
+            songToUpdate.RecordLabel = song.RecordLabel;
+            songToUpdate.ReleaseYear = song.ReleaseYear;
+            songToUpdate.Title = song.Title;
+            
             context.SaveChanges();
 
-            return Task.FromResult(song);
+            return Task.FromResult(songToUpdate);
         }
     }
 }

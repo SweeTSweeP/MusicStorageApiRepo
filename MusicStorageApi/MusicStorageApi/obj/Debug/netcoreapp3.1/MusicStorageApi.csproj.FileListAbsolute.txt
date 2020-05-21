@@ -103,8 +103,6 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\De
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Data.pdb
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Models.pdb
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.csprojAssemblyReference.cache
-C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.csproj.CoreCompileInputs.cache
-C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.AssemblyInfoInputs.cache
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.AssemblyInfo.cs
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.RazorTargetAssemblyInfo.cache
@@ -121,4 +119,9 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\De
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.csproj.CoreCompileInputs.cache
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi\obj\Debug\netcoreapp3.1\MusicStorageApi.MvcApplicationPartsAssemblyInfo.cache

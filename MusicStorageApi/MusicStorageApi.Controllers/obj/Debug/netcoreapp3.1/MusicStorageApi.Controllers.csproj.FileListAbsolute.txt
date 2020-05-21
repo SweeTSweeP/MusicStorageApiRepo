@@ -11,6 +11,6 @@ C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Contro
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.AssemblyInfo.cs
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csproj.CopyComplete
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\bin\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb
-C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csproj.CoreCompileInputs.cache
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.dll
 C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.pdb
+C:\Users\Family\repos\MusicStorageApiRepo\MusicStorageApi\MusicStorageApi.Controllers\obj\Debug\netcoreapp3.1\MusicStorageApi.Controllers.csproj.CoreCompileInputs.cache

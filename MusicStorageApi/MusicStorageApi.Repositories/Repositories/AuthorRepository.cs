@@ -50,11 +50,14 @@ namespace MusicStorageApi.Repositories.Repositories
 
         public Task<Author> UpdateAuthor(Guid authorId, Author author)
         {
-            author.AuthorId = authorId;
-            context.Authors.Update(author);
+            var authorToUpdate = context.Authors.FirstOrDefault(s => s.AuthorId == authorId);
+
+            authorToUpdate.AuthorId = authorId;
+            authorToUpdate.AuthorName = author.AuthorName;
+
             context.SaveChanges();
 
-            return Task.FromResult(author);
+            return Task.FromResult(authorToUpdate);
         }
     }
 }

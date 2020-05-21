@@ -40,7 +40,8 @@ namespace MusicStorageApi.Repositories.Repositories
         public Task<Album> DeleteAlbum(Guid albumId)
         {
             var albumToDelete = context.Albums.Find(albumId);
-            context.Albums.Remove(albumToDelete);
+            context.Remove(albumToDelete);
+            context.SaveChanges();
 
             return Task.FromResult(albumToDelete);
         }
@@ -62,11 +63,17 @@ namespace MusicStorageApi.Repositories.Repositories
 
         public Task<Album> UpdateAlbum(Guid albumId, Album album)
         {
-            album.AlbumId = albumId;
-            context.Albums.Update(album);
+            var albumToUpdate = context.Albums.FirstOrDefault(s => s.AlbumId == albumId);
+
+            albumToUpdate.AlbumId = albumId;
+            albumToUpdate.Genre = album.Genre;
+            albumToUpdate.RecordLabel = album.RecordLabel;
+            albumToUpdate.ReleaseYear = album.ReleaseYear;
+            albumToUpdate.Title = album.Title;
+
             context.SaveChanges();
 
-            return Task.FromResult(album);
+            return Task.FromResult(albumToUpdate);
         }
     }
 }

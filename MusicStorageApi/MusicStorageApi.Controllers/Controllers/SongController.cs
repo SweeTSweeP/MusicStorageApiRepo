@@ -84,7 +84,7 @@ namespace MusicStorageApi.Controllers.Controllers
             }
             else
             {
-                return CreatedAtAction("Create", new { id = createrdSong.SongId }, createrdSong);
+                return Created("Create", createrdSong);
             }
         }
 

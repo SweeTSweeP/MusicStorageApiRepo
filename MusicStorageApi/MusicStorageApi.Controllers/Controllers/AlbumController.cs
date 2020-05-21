@@ -40,7 +40,7 @@ namespace MusicStorageApi.Controllers.Controllers
             }
         }
 
-        [HttpGet("/authors/{authorId}")]
+        [HttpGet("authors/{authorId}")]
         public async Task<IActionResult> GetAlbumsByAuthorIdAsync(Guid authorId)
         {
             var albums = await repository.GetAlbumsByAuthorId(authorId);
@@ -55,7 +55,7 @@ namespace MusicStorageApi.Controllers.Controllers
             }
         }
 
-        [HttpPost("/authors/{authorId}")]
+        [HttpPost("authors/{authorId}")]
         public async Task<IActionResult> CreateAlbumAsync(Guid authorId, Album album)
         {
             var createdAlbum = await repository.CreateAlbum(authorId, album);
@@ -66,7 +66,7 @@ namespace MusicStorageApi.Controllers.Controllers
             }
             else
             {
-                return CreatedAtAction("Create", new { id = createdAlbum.AlbumId }, createdAlbum);
+                return Created("Create", createdAlbum);
             }
         }
 

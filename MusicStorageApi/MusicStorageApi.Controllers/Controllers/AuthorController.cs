@@ -46,7 +46,7 @@ namespace MusicStorageApi.Controllers.Controllers
         {
             var createdAuthor = await repository.CreateAuthor(author);
 
-            return CreatedAtAction("Create", new { id = createdAuthor.AuthorId}, createdAuthor);
+            return Created("Create", createdAuthor);
         }
 
         [HttpPut("{authorId}")]

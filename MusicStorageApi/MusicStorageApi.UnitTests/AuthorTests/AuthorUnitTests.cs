@@ -103,7 +103,7 @@ namespace MusicStorageApi.UnitTests.AuthorTests
 
             var response = await controller.CreateAuthorAsync(author);
 
-            var result = (response as CreatedAtActionResult).Value as Author;
+            var result = (response as CreatedResult).Value as Author;
 
             Assert.IsNotNull(result);
             Assert.AreEqual(author.AuthorName, result.AuthorName);
